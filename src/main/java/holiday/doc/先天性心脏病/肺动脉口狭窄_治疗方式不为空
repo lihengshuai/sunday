@@ -1,0 +1,120 @@
+{
+  "description": "肺动脉口狭窄_治疗方式不为空",
+  "features": [
+    "DISEASE"
+  ],
+  "details": [
+    {
+      "index": 0,
+      "spaceNumber": 1,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者行#treatmentName#已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "toPatient": "您好,到#date#,您行#treatmentName#已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "type": "RE_EXAMINATION_ADVICE"
+          }
+        ]
+      },
+      "timeUnite": "MONTH",
+      "timeStartFrom":"TREATMENT_TREATED_AT",
+      "reviewItems": [
+        "超声心动图",
+        "心电图",
+        "血常规",
+        "生化全项"
+      ]
+    },
+    {
+      "index": 1,
+      "spaceNumber": 3,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者行#treatmentName#已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "toPatient": "您好,到#date#,您行#treatmentName#已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "type": "RE_EXAMINATION_ADVICE"
+          }
+        ]
+      },
+      "timeUnite": "MONTH",
+      "timeStartFrom":"TREATMENT_TREATED_AT",
+      "reviewItems": [
+        "超声心动图",
+        "心电图",
+        "血常规",
+        "生化全项"
+      ]
+    },
+    {
+      "index": 2,
+      "spaceNumber": 6,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者行#treatmentName#已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "toPatient": "您好,到#date#,您行#treatmentName#已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "type": "RE_EXAMINATION_ADVICE"
+          }
+        ]
+      },
+      "timeUnite": "MONTH",
+      "timeStartFrom":"TREATMENT_TREATED_AT",
+      "reviewItems": [
+        "超声心动图",
+        "心电图",
+        "血常规",
+        "生化全项",
+        "胸部X线片"
+      ]
+    },
+    {
+      "index": 3,
+      "spaceNumber": 12,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者行#treatmentName#已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "toPatient": "您好,到#date#,您行#treatmentName#已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "type": "RE_EXAMINATION_ADVICE"
+          }
+        ]
+      },
+      "timeUnite": "MONTH",
+      "timeStartFrom":"TREATMENT_TREATED_AT",
+      "reviewItems": [
+        "超声心动图",
+        "心电图",
+        "血常规",
+        "生化全项",
+        "胸部X线片"
+      ]
+    }
+  ],
+  "haveDisease": [
+    {
+      "name": "风湿性肺动脉瓣狭窄",
+      "diseaseStatus": "TREATMENT_NOT_EMPTY"
+    },
+    {
+      "name": "肺动脉瓣狭窄",
+      "diseaseStatus": "TREATMENT_NOT_EMPTY"
+    },
+    {
+      "name": "肺动脉瓣狭窄伴关闭不全",
+      "diseaseStatus": "TREATMENT_NOT_EMPTY"
+    },
+    {
+      "name": "先天性肺动脉瓣狭窄",
+      "diseaseStatus": "TREATMENT_NOT_EMPTY"
+    },
+    {
+      "name": "肺动脉瓣狭窄矫治术后",
+      "diseaseStatus": "TREATMENT_NOT_EMPTY"
+    },
+    {
+      "name": "肺动脉狭窄",
+      "diseaseStatus": "TREATMENT_NOT_EMPTY"
+    }
+  ]
+}

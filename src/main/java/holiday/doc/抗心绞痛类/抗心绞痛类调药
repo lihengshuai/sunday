@@ -1,0 +1,35 @@
+{
+  "description": "抗心绞痛类调药",
+  "features": [
+    "MEDICINE"
+  ],
+  "details": [
+    {
+      "index": 0,
+      "spaceNumber": 3,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者硝酸酯类药物已连续⽤药#spaceTime#，是否调药？",
+            "toPatient": "",
+            "type": "MEDICINE_ADJUSTMENT_ADVICE"
+          }
+        ]
+      },
+      "timeUnite": "MONTH",
+      "effectiveDays": 0
+    }
+  ],
+  "haveMedicine": [
+    {
+      "name": "抗心绞痛类",
+      "nameType": "MEDICINE_CATEGORY",
+      "duration": 3,
+      "durationUnit": "DAY",
+      "operations": [
+        "ADD",
+        "UPDATE"
+      ]
+    }
+  ]
+}

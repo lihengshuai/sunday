@@ -1,0 +1,71 @@
+{
+  "description": "高脂血症确认",
+  "features": [
+    "OTHER_DIAGNOSIS",
+    "FOUR_HIGH",
+    "INSPECTION"
+  ],
+  "details": [
+    {
+      "index": 0,
+      "spaceNumber": 0,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者近次化验显示血脂异常，考虑为高脂血症，是否提醒患者前往医院诊断？",
+            "toPatient": "您好，您近次化验血脂偏高，有可能为高脂血症，请您尽快前往医院就诊，并将诊断结果反馈到系统。",
+            "type": "RE_EXAMINATION_ADVICE"
+          }
+        ]
+      },
+      "timeUnite": "DAY",
+      "effectiveDays": 0
+    }
+  ],
+  "notHaveOtherDiagnosis": [
+    {
+      "itemName": "高胆固醇血症",
+      "otherDiagnosis": [
+        {
+          "name": "高胆固醇血症"
+        }
+      ]
+    },
+    {
+      "itemName": "高甘油三酯血症",
+      "otherDiagnosis": [
+        {
+          "name": "高甘油三酯血症"
+        }
+      ]
+    }
+  ],
+  "notHaveFourHigh": [
+    "四大代谢高血脂"
+  ],
+  "ignoreFourHigh": [
+    "四大代谢糖尿病",
+    "四大代谢高血压",
+    "四大代谢高尿酸"
+  ],
+  "inspections": [
+    {
+      "sign": "GXZ_CONFIRM",
+      "abbreviation": "TC",
+      "max": 9999000,
+      "min": 6200,
+      "reachedTimes": 1,
+      "reachedUnit": "NUMBER",
+      "cutOffNum": 1
+    },
+    {
+      "sign": "GXZ_CONFIRM",
+      "abbreviation": "TG",
+      "max": 9999000,
+      "min": 2300,
+      "reachedTimes": 1,
+      "reachedUnit": "NUMBER",
+      "cutOffNum": 1
+    }
+  ]
+}

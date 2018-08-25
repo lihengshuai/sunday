@@ -1,0 +1,118 @@
+{
+  "description": "瓣膜病_二尖瓣关闭不全_处理方式不空",
+  "features": [
+    "DISEASE"
+  ],
+  "details": [
+    {
+      "index": 0,
+      "spaceNumber": 3,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "toPatient": "您好,到#date#,您距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "type": "RE_EXAMINATION_ADVICE"
+          }
+        ]
+      },
+      "timeUnite": "MONTH",
+      "reviewItems": [
+        "心电图",
+        "胸部X线片",
+        "超声心动图"
+      ]
+    },
+    {
+      "index": 1,
+      "spaceNumber": 6,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "toPatient": "您好,到#date#,您距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "type": "RE_EXAMINATION_ADVICE"
+          }
+        ]
+      },
+      "timeUnite": "MONTH",
+      "reviewItems": [
+        "心电图",
+        "胸部X线片",
+        "超声心动图"
+      ]
+    },
+    {
+      "index": 2,
+      "spaceNumber": 12,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "toPatient": "您好,到#date#,您距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "type": "RE_EXAMINATION_ADVICE"
+          }
+        ]
+      },
+      "timeUnite": "MONTH",
+      "reviewItems": [
+        "心电图",
+        "胸部X线片",
+        "超声心动图"
+      ]
+    },
+    {
+      "index": 3,
+      "spaceNumber": -12,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "toPatient": "您好,到#date#,您距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "type": "RE_EXAMINATION_ADVICE"
+          }
+        ]
+      },
+      "timeUnite": "MONTH",
+      "reviewItems": [
+        "心电图",
+        "胸部X线片",
+        "超声心动图"
+      ]
+    }
+  ],
+  "haveDisease": [
+    {
+      "name": "风湿性二尖瓣关闭不全",
+      "diseaseStatus": "TREATMENT_NOT_EMPTY"
+    },
+    {
+      "name": "二尖瓣关闭不全伴主动脉瓣狭窄",
+      "diseaseStatus": "TREATMENT_NOT_EMPTY"
+    },
+    {
+      "name": "二尖瓣关闭不全伴主动脉瓣狭窄关闭不全",
+      "diseaseStatus": "TREATMENT_NOT_EMPTY"
+    },
+    {
+      "name": "二尖瓣及主动脉瓣关闭不全",
+      "diseaseStatus": "TREATMENT_NOT_EMPTY"
+    },
+    {
+      "name": "二尖瓣及三尖瓣关闭不全",
+      "diseaseStatus": "TREATMENT_NOT_EMPTY"
+    },
+    {
+      "name": "二尖瓣主动脉瓣及三尖瓣关闭不全",
+      "diseaseStatus": "TREATMENT_NOT_EMPTY"
+    },
+    {
+      "name": "二尖瓣关闭不全",
+      "diseaseStatus": "TREATMENT_NOT_EMPTY"
+    },
+    {
+      "name": "先天性二尖瓣关闭不全",
+      "diseaseStatus": "TREATMENT_NOT_EMPTY"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "description": "凝血障碍确诊",
+  "features": [
+    "OTHER_DIAGNOSIS",
+    "INSPECTION"
+  ],
+  "details": [
+    {
+      "index": 0,
+      "spaceNumber": 0,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者近次化验显示血小板计数偏低，可能存在凝血功能障碍，是否提醒患者前往医院就诊？",
+            "toPatient": "您好，您近次化验血小板计数偏低，有可能为凝血功能障碍类疾病，请您尽快前往医院就诊，并将结果反馈到系统。",
+            "type": "RE_EXAMINATION_ADVICE"
+          }
+        ]
+      },
+      "timeUnite": "DAY",
+      "effectiveDays": 0
+    }
+  ],
+  "notHaveOtherDiagnosis": [
+    {
+      "itemName": "凝血功能障碍类",
+      "otherDiagnosis": [
+        {
+          "name": "血友病A型"
+        },
+        {
+          "name": "血友病"
+        },
+        {
+          "name": "血友病性关节炎"
+        },
+        {
+          "name": "血友病B型"
+        },
+        {
+          "name": "获得性血管性血友病"
+        },
+        {
+          "name": "血管性假血友病"
+        },
+        {
+          "name": "血友病C型"
+        },
+        {
+          "name": "胎儿血友病"
+        },
+        {
+          "name": "妊娠合并血友病"
+        },
+        {
+          "name": "维生素K依赖因子缺乏症"
+        },
+        {
+          "name": "维生素K缺乏症"
+        },
+        {
+          "name": "弥散性血管内凝血"
+        }
+      ]
+    }
+  ],
+  "inspections": [
+    {
+      "sign": "NXZA_CONFIRM",
+      "abbreviation": "PLT",
+      "max": 100000,
+      "min": 0,
+      "reachedTimes": 1,
+      "reachedUnit": "NUMBER",
+      "cutOffNum": 1
+    }
+  ]
+}

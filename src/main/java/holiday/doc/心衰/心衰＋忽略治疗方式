@@ -1,0 +1,188 @@
+{
+  "description": "心衰_忽略治疗方式",
+  "features": [
+    "DISEASE"
+  ],
+  "details": [
+    {
+      "index": 0,
+      "spaceNumber": 15,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "toPatient": "您好,到#date#,您距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "type": "RE_EXAMINATION_ADVICE"
+          }
+        ]
+      },
+      "timeStartFrom": "TREATMENT_TREATED_AT",
+      "timeUnite": "DAY",
+      "reviewItems": [
+        "BNP",
+        "肌钙蛋白",
+        "血常规",
+        "尿常规",
+        "生化全项",
+        "甲功五项",
+        "胸部X线片",
+        "心电图",
+        "超声心动图"
+      ]
+    },
+    {
+      "index": 1,
+      "spaceNumber": 3,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "toPatient": "您好,到#date#,您距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "type": "RE_EXAMINATION_ADVICE"
+          }
+        ]
+      },
+      "timeStartFrom": "TREATMENT_TREATED_AT",
+      "timeUnite": "MONTH",
+      "reviewItems": [
+        "BNP",
+        "肌钙蛋白",
+        "血常规",
+        "尿常规",
+        "生化全项",
+        "甲功五项",
+        "胸部X线片",
+        "心电图",
+        "超声心动图"
+      ]
+    },
+    {
+      "index": 2,
+      "spaceNumber": 6,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "toPatient": "您好,到#date#,您距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "type": "RE_EXAMINATION_ADVICE"
+          }
+        ]
+      },
+      "timeStartFrom": "TREATMENT_TREATED_AT",
+      "timeUnite": "MONTH",
+      "reviewItems": [
+        "BNP",
+        "肌钙蛋白",
+        "血常规",
+        "尿常规",
+        "生化全项",
+        "甲功五项",
+        "胸部X线片",
+        "心电图",
+        "超声心动图"
+      ]
+    },
+    {
+      "index": 3,
+      "spaceNumber": 9,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "toPatient": "您好,到#date#,您距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "type": "RE_EXAMINATION_ADVICE"
+          }
+        ]
+      },
+      "timeStartFrom": "TREATMENT_TREATED_AT",
+      "timeUnite": "MONTH",
+      "reviewItems": [
+        "BNP",
+        "肌钙蛋白",
+        "血常规",
+        "尿常规",
+        "生化全项",
+        "甲功五项",
+        "胸部X线片",
+        "心电图",
+        "超声心动图"
+      ]
+    },
+    {
+      "index": 4,
+      "spaceNumber": 12,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "toPatient": "您好,到#date#,您距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "type": "RE_EXAMINATION_ADVICE"
+          }
+        ]
+      },
+      "timeStartFrom": "TREATMENT_TREATED_AT",
+      "timeUnite": "MONTH",
+      "reviewItems": [
+        "BNP",
+        "肌钙蛋白",
+        "血常规",
+        "尿常规",
+        "生化全项",
+        "甲功五项",
+        "胸部X线片",
+        "心电图",
+        "超声心动图"
+      ]
+    }
+  ],
+  "haveDisease": [
+    {
+      "name": "右心衰竭",
+      "diseaseStatus": "IGNORE_TREATMENT"
+    },
+    {
+      "name": "左心衰竭",
+      "diseaseStatus": "IGNORE_TREATMENT"
+    },
+    {
+      "name": "高血压心脏病伴心力衰竭",
+      "diseaseStatus": "IGNORE_TREATMENT"
+    },
+    {
+      "name": "高血压性心脏病肾脏病伴心力衰竭",
+      "diseaseStatus": "IGNORE_TREATMENT"
+    },
+    {
+      "name": "高血压性心脏病肾脏病伴心力衰竭和肾功能衰竭",
+      "diseaseStatus": "IGNORE_TREATMENT"
+    },
+    {
+      "name": "充血性心力衰竭",
+      "diseaseStatus": "IGNORE_TREATMENT"
+    },
+    {
+      "name": "心力衰竭",
+      "diseaseStatus": "IGNORE_TREATMENT"
+    },
+    {
+      "name": "心脏手术后心力衰竭",
+      "diseaseStatus": "IGNORE_TREATMENT"
+    },
+    {
+      "name": "手术后心力衰竭",
+      "diseaseStatus": "IGNORE_TREATMENT"
+    },
+    {
+      "name": "分娩伴心力衰竭",
+      "diseaseStatus": "IGNORE_TREATMENT"
+    },
+    {
+      "name": "妊娠合并心力衰竭",
+      "diseaseStatus": "IGNORE_TREATMENT"
+    },
+    {
+      "name": "新生儿心力衰竭",
+      "diseaseStatus": "IGNORE_TREATMENT"
+    }
+  ]
+}

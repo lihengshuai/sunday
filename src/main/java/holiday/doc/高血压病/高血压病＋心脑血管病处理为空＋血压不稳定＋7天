@@ -1,0 +1,52 @@
+{
+  "description": "高血压病_心脑血管病处理为空_血压不稳定_7天",
+  "features": [
+    "FOUR_HIGH",
+    "BLOOD_PRESS",
+    "DISEASE_EMPTY"
+  ],
+  "details": [
+    {
+      "index": 0,
+      "spaceNumber": 0,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者近7天血压波动异常,建议复查,具体项目:#reviewItems#。",
+            "toPatient": "您好,由于您近7天血压波动异常,存在⻛险,建议复查,具体项目:#reviewItems#。",
+            "type": "RE_EXAMINATION_ADVICE"
+          }
+        ]
+      },
+      "timeUnite": "DAY",
+      "effectiveDays": 7,
+      "reviewItems": [
+        "生化全项",
+        "尿常规",
+        "血常规",
+        "心电图",
+        "心脏超声"
+      ]
+    }
+  ],
+  "haveFourHigh": [
+    "四大代谢高血压"
+  ],
+  "ignoreFourHigh": [
+    "四大代谢高血脂",
+    "四大代谢糖尿病",
+    "四大代谢高尿酸"
+  ],
+  "bloodPress": [
+    {
+      "sign": "GXY_DISEASE_EMPTY_BP_NOT_STEADY_FOR_7_DAY",
+      "highMax": 179,
+      "highMin": 160,
+      "lowMax": 109,
+      "lowMin": 100,
+      "reachedUnit": "NUMBER",
+      "reachedTimes": 3,
+      "cutOffNum": 7
+    }
+  ]
+}

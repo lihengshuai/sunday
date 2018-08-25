@@ -1,0 +1,324 @@
+{
+  "description": "冠心病_瓣膜病_四高全无",
+  "features": [
+    "DISEASE",
+    "FOUR_HIGH"
+  ],
+  "details": [
+    {
+      "index": 0,
+      "spaceNumber": -6,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "toPatient": "您好,到#date#,您距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "type": "RE_EXAMINATION_ADVICE"
+          }
+        ]
+      },
+      "timeUnite": "MONTH",
+      "timeStartFrom": "TREATMENT_TREATED_AT",
+      "reviewItems": [
+        "生化全项",
+        "血常规",
+        "尿常规",
+        "便常规",
+        "凝血四项",
+        "心电图",
+        "超声心动图",
+        "胸部X线片",
+        "心肌损伤标记物"
+      ]
+    }
+  ],
+  "haveDisease": [
+    {
+      "name": "冠状动脉血栓形成",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "冠状动脉支架内血栓形成",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "冠状动脉粥样硬化",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "冠状动脉粥样硬化性心脏病",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "慢性冠状动脉供血不足",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "冠状动脉性心脏病",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "风湿性二尖瓣狭窄",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "风湿性二尖瓣狭窄伴关闭不全",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "二尖瓣狭窄伴主动脉瓣关闭不全",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "二尖瓣狭窄伴主动脉瓣狭窄关闭不全",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "二尖瓣狭窄关闭不全伴主动脉瓣关闭不全",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "二尖瓣及主动脉瓣狭窄伴关闭不全",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "二尖瓣及主动脉瓣狭窄",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "二尖瓣狭窄关闭不全伴主动脉瓣狭窄",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "二尖瓣狭窄伴三尖瓣关闭不全",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "二尖瓣狭窄关闭不全伴三尖瓣关闭不全",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "二尖瓣及三尖瓣狭窄",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "二尖瓣狭窄关闭不全伴主动脉瓣及三尖瓣关闭不全",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "二尖瓣狭窄及主动脉瓣三尖瓣关闭不全",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "二尖瓣主动脉瓣及三尖瓣狭窄关闭不全",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "二尖瓣狭窄关闭不全伴主动脉瓣三尖瓣狭窄",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "二尖瓣主动脉瓣狭窄关闭不全伴三尖瓣关闭不全",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "非风湿性二尖瓣狭窄",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "二尖瓣术后狭窄",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "先天性二尖瓣狭窄",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "风湿性二尖瓣关闭不全",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "二尖瓣关闭不全伴主动脉瓣狭窄",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "二尖瓣关闭不全伴主动脉瓣狭窄关闭不全",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "二尖瓣及主动脉瓣关闭不全",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "二尖瓣及三尖瓣关闭不全",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "二尖瓣主动脉瓣及三尖瓣关闭不全",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "二尖瓣关闭不全",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "先天性二尖瓣关闭不全",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "非风湿性三尖瓣狭窄",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "非风湿性三尖瓣狭窄伴关闭不全",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "风湿性主动脉瓣狭窄",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "风湿性主动脉瓣狭窄伴关闭不全",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "主动脉瓣狭窄",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "主动脉瓣狭窄伴关闭不全",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "先天性主动脉瓣狭窄",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "先天性主动脉瓣下狭窄",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "先天性主动脉瓣上狭窄",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "主动脉瓣及三尖瓣关闭不全",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "梅毒性主动脉瓣关闭不全",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "风湿性主动脉瓣关闭不全",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "主动脉瓣关闭不全",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "先天性主动脉瓣关闭不全",
+      "category": "SECOND_DISEASE",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    }
+  ],
+  "notHaveDisease": [
+    {
+      "name": "冠状动脉搭桥术和瓣膜移植物机械性并发症",
+      "category": "THIRD_DISEASE",
+      "diseaseStatus": "IGNORE_TREATMENT"
+    },
+    {
+      "name": "冠状动脉搭桥术机械性并发症",
+      "category": "THIRD_DISEASE",
+      "diseaseStatus": "IGNORE_TREATMENT"
+    },
+    {
+      "name": "冠状动脉搭桥术后状态",
+      "category": "THIRD_DISEASE",
+      "diseaseStatus": "IGNORE_TREATMENT"
+    },
+    {
+      "name": "冠状动脉搭桥术后",
+      "category": "THIRD_DISEASE",
+      "diseaseStatus": "IGNORE_TREATMENT"
+    },
+    {
+      "name": "冠脉搭桥+换瓣术后",
+      "category": "THIRD_DISEASE",
+      "diseaseStatus": "IGNORE_TREATMENT"
+    },
+    {
+      "name": "冠脉搭桥+人工血管置换术后",
+      "category": "THIRD_DISEASE",
+      "diseaseStatus": "IGNORE_TREATMENT"
+    },
+    {
+      "name": "小切口冠状动脉搭桥术后",
+      "category": "THIRD_DISEASE",
+      "diseaseStatus": "IGNORE_TREATMENT"
+    },
+    {
+      "name": "经皮冠状动脉内支架置入术后(STENT)",
+      "category": "THIRD_DISEASE",
+      "diseaseStatus": "IGNORE_TREATMENT"
+    },
+    {
+      "name": "经皮冠状动脉腔内成形术后(PTCA)",
+      "category": "THIRD_DISEASE",
+      "diseaseStatus": "IGNORE_TREATMENT"
+    },
+    {
+      "name": "经皮冠状动脉腔内激光成形术后(ELCA)",
+      "category": "THIRD_DISEASE",
+      "diseaseStatus": "IGNORE_TREATMENT"
+    }
+  ],
+  "ignoreFourHigh": [
+    "四大代谢高尿酸",
+    "四大代谢糖尿病",
+    "四大代谢高血压",
+    "四大代谢高血脂"
+  ]
+}

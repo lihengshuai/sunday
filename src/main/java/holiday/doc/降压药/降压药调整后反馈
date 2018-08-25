@@ -1,0 +1,35 @@
+{
+  "description": "降压药调整后反馈",
+  "features": [
+    "MEDICINE"
+  ],
+  "details": [
+    {
+      "index": 0,
+      "spaceNumber": 15,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "",
+            "toPatient": "您好，您降压药调整已满#spaceTime#，建议您进⾏24H动态血压监测，并将检查结果反馈⾄系统。",
+            "type": "DOCTOR_CONFIRM"
+          }
+        ]
+      },
+      "timeUnite": "DAY",
+      "effectiveDays": 0
+    }
+  ],
+  "haveMedicine": [
+    {
+      "name": "降压药",
+      "nameType": "MEDICINE_CATEGORY",
+      "duration": 0,
+      "durationUnit": "DAY",
+      "operations": [
+        "ADD",
+        "UPDATE"
+      ]
+    }
+  ]
+}

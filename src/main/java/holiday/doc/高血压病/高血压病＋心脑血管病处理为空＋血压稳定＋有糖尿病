@@ -1,0 +1,47 @@
+{
+  "description": "高血压病_心脑血管病处理为空_血压稳定_有糖尿病",
+  "features": [
+    "FOUR_HIGH",
+    "BLOOD_PRESS",
+    "DISEASE_EMPTY"
+  ],
+  "details": [
+    {
+      "index": 0,
+      "spaceNumber": -6,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "toPatient": "您好,到#date#,您距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "type": "RE_EXAMINATION_ADVICE"
+          }
+        ]
+      },
+      "timeUnite": "MONTH",
+      "reviewItems": [
+        "生化全项",
+        "糖化血红蛋白",
+        "同型半胱氨酸",
+        "尿蛋白定量",
+        "24小时动态血压",
+        "眼底检查",
+        "胸部胸部X线片",
+        "心脏超声"
+      ]
+    }
+  ],
+  "haveFourHigh": [
+    "四大代谢高血压",
+    "四大代谢糖尿病"
+  ],
+  "ignoreFourHigh": [
+    "四大代谢高血脂",
+    "四大代谢高尿酸"
+  ],
+  "bloodPress": [
+    {
+      "sign": "GXY_DISEASE_EMPTY_BP_STEADY"
+    }
+  ]
+}

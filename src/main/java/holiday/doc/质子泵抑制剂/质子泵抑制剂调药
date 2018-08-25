@@ -1,0 +1,35 @@
+{
+  "description": "质子泵抑制剂调药",
+  "features": [
+    "MEDICINE"
+  ],
+  "details": [
+    {
+      "index": 0,
+      "spaceNumber": 2,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者PPI已连续⽤药#spaceTime#，是否调药？",
+            "toPatient": "",
+            "type": "MEDICINE_ADJUSTMENT_ADVICE"
+          }
+        ]
+      },
+      "timeUnite": "MONTH",
+      "effectiveDays": 0
+    }
+  ],
+  "haveMedicine": [
+    {
+      "name": "质子泵抑制剂",
+      "nameType": "MEDICINE_CATEGORY",
+      "duration": 3,
+      "durationUnit": "DAY",
+      "operations": [
+        "ADD",
+        "UPDATE"
+      ]
+    }
+  ]
+}

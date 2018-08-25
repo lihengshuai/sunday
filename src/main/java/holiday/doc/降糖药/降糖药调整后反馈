@@ -1,0 +1,35 @@
+{
+  "description": "降糖药调整后反馈",
+  "features": [
+    "MEDICINE"
+  ],
+  "details": [
+    {
+      "index": 0,
+      "spaceNumber": 15,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "",
+            "toPatient": "您好，您降糖药调整已满#spaceTime#，建议您进⾏空腹血糖和餐后2小时血糖检测，并将检查结果反馈⾄系统。",
+            "type": "DOCTOR_CONFIRM"
+          }
+        ]
+      },
+      "timeUnite": "DAY",
+      "effectiveDays": 0
+    }
+  ],
+  "haveMedicine": [
+    {
+      "name": "降糖药",
+      "nameType": "MEDICINE_CATEGORY",
+      "duration": 0,
+      "durationUnit": "DAY",
+      "operations": [
+        "ADD",
+        "UPDATE"
+      ]
+    }
+  ]
+}

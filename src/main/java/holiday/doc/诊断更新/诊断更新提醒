@@ -1,0 +1,33 @@
+{
+  "description": "诊断更新提醒",
+  "features": [
+    "ENGINE_STARTER"
+  ],
+  "details": [
+    {
+      "index": 0,
+      "spaceNumber": 0,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者#date#更新了诊断，是否调药？",
+            "toPatient": "您好，根据您#date#所更新的诊断，做出以下药物调整：",
+            "type": "MEDICINE_ADJUSTMENT_ADVICE"
+          },
+          {
+            "toDoctor": "患者#date#更新了诊断，是否调整⽤药达标值？",
+            "toPatient": "您好，根据您#date#所更新的诊断，做出以下指标调整：",
+            "type": "INSPECTION_STANDARD_ADVICE"
+          }
+        ]
+      },
+      "timeUnite": "DAY",
+      "effectiveDays": 0
+    }
+  ],
+  "haveStarter": [
+    {
+      "starter": "DIAGNOSIS"
+    }
+  ]
+}

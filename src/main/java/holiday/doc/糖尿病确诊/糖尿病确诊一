@@ -1,0 +1,52 @@
+{
+  "description": "糖尿病确诊一",
+  "features": [
+    "FOUR_HIGH",
+    "INSPECTION"
+  ],
+  "details": [
+    {
+      "index": 0,
+      "spaceNumber": 0,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "",
+            "toPatient": "您好，由于您近次血糖检测高于正常值，请问您是否有多饮、多尿、多⻝、体重减轻的症状？",
+            "type": "DOCTOR_CONFIRM"
+          }
+        ]
+      },
+      "timeUnite": "DAY",
+      "effectiveDays": 15
+    }
+  ],
+  "notHaveFourHigh": [
+    "四大代谢糖尿病"
+  ],
+  "ignoreFourHigh": [
+    "四大代谢高血脂",
+    "四大代谢高血压",
+    "四大代谢高尿酸"
+  ],
+  "inspections": [
+    {
+      "sign": "TNB_CONFIRM_GLU_BEFORE_BREAKFAST_NOT_STEADY",
+      "abbreviation": "GLU_BEFORE_BREAKFAST",
+      "max": 9999000,
+      "min": 7000,
+      "reachedTimes": 1,
+      "reachedUnit": "NUMBER",
+      "cutOffNum": 1
+    },
+    {
+      "sign": "TNB_CONFIRM_GLU_AFTER_MEAL_NOT_STEADY",
+      "abbreviation": "GLU_AFTER_BREAKFAST",
+      "max": 9999000,
+      "min": 11100,
+      "reachedTimes": 1,
+      "reachedUnit": "NUMBER",
+      "cutOffNum": 1
+    }
+  ]
+}

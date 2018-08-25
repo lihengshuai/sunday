@@ -1,0 +1,61 @@
+{
+  "description": "高尿酸血症确诊_女性",
+  "features": [
+    "OTHER_DIAGNOSIS",
+    "FOUR_HIGH",
+    "INSPECTION",
+    "PERSONAL"
+  ],
+  "details": [
+    {
+      "index": 0,
+      "spaceNumber": 0,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者近2次化验显示尿酸偏高，考虑为高尿酸血症，是否提醒患者前往医院诊断？",
+            "toPatient": "您好，您近2次化验血尿酸偏高，有可能为高尿酸血症，请您尽快前往医院就诊，并将诊断结果反馈到系统。",
+            "type": "RE_EXAMINATION_ADVICE"
+          }
+        ]
+      },
+      "timeUnite": "DAY",
+      "effectiveDays": 0
+    }
+  ],
+  "notHaveOtherDiagnosis": [
+    {
+      "itemName": "痛风",
+      "otherDiagnosis": [
+        {
+          "name": "痛风"
+        }
+      ]
+    }
+  ],
+  "notHaveFourHigh": [
+    "四大代谢高尿酸"
+  ],
+  "ignoreFourHigh": [
+    "四大代谢糖尿病",
+    "四大代谢高血压",
+    "四大代谢高血脂"
+  ],
+  "inspections": [
+    {
+      "sign": "GNS_CONFIRM_FEMALE",
+      "abbreviation": "UA",
+      "max": 99990000,
+      "min": 360000,
+      "reachedTimes": 2,
+      "reachedUnit": "NUMBER",
+      "cutOffNum": 2
+    }
+  ],
+  "personal": [
+    {
+      "sign": "GNS_CONFIRM_FEMALE",
+      "requiredSex": "FEMALE"
+    }
+  ]
+}

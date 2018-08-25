@@ -1,0 +1,35 @@
+{
+  "description": "利尿剂调整后反馈",
+  "features": [
+    "MEDICINE"
+  ],
+  "details": [
+    {
+      "index": 0,
+      "spaceNumber": 7,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "",
+            "toPatient": "您好，您利尿剂调整已满#spaceTime#，建议您进⾏电解质化验，并将检查结果反馈⾄系统。",
+            "type": "DOCTOR_CONFIRM"
+          }
+        ]
+      },
+      "timeUnite": "DAY",
+      "effectiveDays": 0
+    }
+  ],
+  "haveMedicine": [
+    {
+      "name": "利尿剂",
+      "nameType": "MEDICINE_CATEGORY",
+      "duration": 0,
+      "durationUnit": "DAY",
+      "operations": [
+        "ADD",
+        "UPDATE"
+      ]
+    }
+  ]
+}

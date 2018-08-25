@@ -1,0 +1,64 @@
+{
+  "description": "冠心病_药物治疗_高血脂_糖尿病",
+  "features": [
+    "DISEASE",
+    "FOUR_HIGH"
+  ],
+  "details": [
+    {
+      "index": 0,
+      "spaceNumber": -6,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者到#date#距离上次复查已#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "toPatient": "您好,到#date#,您距离上次复查已#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "type": "RE_EXAMINATION_ADVICE"
+          }
+        ]
+      },
+      "timeUnite": "MONTH",
+      "reviewItems": [
+        "血常规",
+        "生化全项",
+        "超声心动图",
+        "心电图",
+        "糖化血红蛋白"
+      ]
+    }
+  ],
+  "haveDisease": [
+    {
+      "name": "冠状动脉血栓形成",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "冠状动脉支架内血栓形成",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "冠状动脉粥样硬化",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "冠状动脉粥样硬化性心脏病",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "慢性冠状动脉供血不足",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    },
+    {
+      "name": "冠状动脉性心脏病",
+      "diseaseStatus": "TREATMENT_EMPTY"
+    }
+  ],
+  "haveFourHigh": [
+    "四大代谢高血脂",
+    "四大代谢糖尿病"
+  ],
+  "notHaveFourHigh": [
+    "四大代谢高血压",
+    "四大代谢高尿酸"
+  ]
+}

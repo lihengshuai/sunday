@@ -1,0 +1,52 @@
+{
+  "description": "糖尿病确诊二",
+  "features": [
+    "FOUR_HIGH",
+    "INSPECTION"
+  ],
+  "details": [
+    {
+      "index": 0,
+      "spaceNumber": 0,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者近两次血糖高于正常值，有可能为糖尿病，是否提醒患者前往医院诊断？",
+            "toPatient": "您好，您近期血糖异常，有可能患有糖尿病，请您尽快⾄医院内分泌科就诊，并将诊断结果反馈到系统。",
+            "type": "RE_EXAMINATION_ADVICE"
+          }
+        ]
+      },
+      "timeUnite": "DAY",
+      "effectiveDays": 15
+    }
+  ],
+  "notHaveFourHigh": [
+    "四大代谢糖尿病"
+  ],
+  "ignoreFourHigh": [
+    "四大代谢高血脂",
+    "四大代谢高血压",
+    "四大代谢高尿酸"
+  ],
+  "inspections": [
+    {
+      "sign": "TNB_CONFIRM_GLU_BEFORE_BREAKFAST_NOT_STEADY_TWICE",
+      "abbreviation": "GLU_BEFORE_BREAKFAST",
+      "max": 9999000,
+      "min": 7000,
+      "reachedTimes": 2,
+      "reachedUnit": "NUMBER",
+      "cutOffNum": 2
+    },
+    {
+      "sign": "TNB_CONFIRM_GLU_AFTER_MEAL_NOT_STEADY_TWICE",
+      "abbreviation": "GLU_AFTER_BREAKFAST",
+      "max": 9999000,
+      "min": 11100,
+      "reachedTimes": 2,
+      "reachedUnit": "DAY",
+      "cutOffNum": 2
+    }
+  ]
+}

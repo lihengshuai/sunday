@@ -1,0 +1,35 @@
+{
+  "description": "高血脂症_疾病为空",
+  "features": [
+    "FOUR_HIGH",
+    "DISEASE_EMPTY"
+  ],
+  "details": [
+    {
+      "index": 0,
+      "spaceNumber": -6,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "toPatient": "您好,到#date#,您距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "type": "RE_EXAMINATION_ADVICE"
+          }
+        ]
+      },
+      "timeUnite": "MONTH",
+      "reviewItems": [
+        "血脂",
+        "肝功能"
+      ]
+    }
+  ],
+  "haveFourHigh": [
+    "四大代谢高血脂"
+  ],
+  "ignoreFourHigh": [
+    "四大代谢高血压",
+    "四大代谢糖尿病",
+    "四大代谢高尿酸"
+  ]
+}

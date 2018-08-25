@@ -1,0 +1,142 @@
+{
+  "description": "冠心病_PCI手术_高血脂_高尿酸",
+  "features": [
+    "DISEASE",
+    "FOUR_HIGH"
+  ],
+  "details": [
+    {
+      "index": 0,
+      "spaceNumber": 1,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者到#date#PCI术后满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "toPatient": "您好,到#date#,您PCI术后已经满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "type": "RE_EXAMINATION_ADVICE"
+          }
+        ]
+      },
+      "timeUnite": "MONTH",
+      "timeStartFrom":"TREATMENT_TREATED_AT",
+      "reviewItems": [
+        "血常规",
+        "生化全项",
+        "超声心动图",
+        "心电图",
+        "血栓弹力图"
+      ]
+    },
+    {
+      "index": 1,
+      "spaceNumber": 3,
+      "timeUnite": "MONTH",
+      "timeStartFrom":"TREATMENT_TREATED_AT",
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者到#date#PCI术后满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "toPatient": "您好,到#date#,您PCI术后已经满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "type": "RE_EXAMINATION_ADVICE"
+          }
+        ]
+      },
+      "reviewItems": [
+        "血常规",
+        "生化全项",
+        "超声心动图",
+        "心电图"
+      ]
+    },
+    {
+      "index": 2,
+      "spaceNumber": 6,
+      "timeUnite": "MONTH",
+      "timeStartFrom":"TREATMENT_TREATED_AT",
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者到#date#PCI术后满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "toPatient": "您好,到#date#,您PCI术后已经满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "type": "RE_EXAMINATION_ADVICE"
+          }
+        ]
+      },
+      "reviewItems": [
+        "血常规",
+        "生化全项",
+        "超声心动图",
+        "心电图",
+        "心肺运动负荷试验"
+      ]
+    },
+    {
+      "index": 3,
+      "spaceNumber": 12,
+      "timeUnite": "MONTH",
+      "timeStartFrom":"TREATMENT_TREATED_AT",
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者到#date#PCI术后满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "toPatient": "您好,到#date#,您PCI术后已经满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "type": "RE_EXAMINATION_ADVICE"
+          }
+        ]
+      },
+      "reviewItems": [
+        "血常规",
+        "生化全项",
+        "超声心动图",
+        "心电图",
+        "冠状动脉造影/冠状动脉CT"
+      ]
+    }
+  ],
+  "haveDisease": [
+    {
+      "name": "冠状动脉血栓形成",
+      "haveTreatment": [
+        "经皮冠状动脉内支架置入术(STENT)"
+      ]
+    },
+    {
+      "name": "冠状动脉支架内血栓形成",
+      "haveTreatment": [
+        "经皮冠状动脉内支架置入术(STENT)"
+      ]
+    },
+    {
+      "name": "冠状动脉粥样硬化",
+      "haveTreatment": [
+        "经皮冠状动脉内支架置入术(STENT)"
+      ]
+    },
+    {
+      "name": "冠状动脉粥样硬化性心脏病",
+      "haveTreatment": [
+        "经皮冠状动脉内支架置入术(STENT)"
+      ]
+    },
+    {
+      "name": "慢性冠状动脉供血不足",
+      "haveTreatment": [
+        "经皮冠状动脉内支架置入术(STENT)"
+      ]
+    },
+    {
+      "name": "冠状动脉性心脏病",
+      "haveTreatment": [
+        "经皮冠状动脉内支架置入术(STENT)"
+      ]
+    }
+  ],
+  "haveFourHigh": [
+    "四大代谢高血脂",
+    "四大代谢高尿酸"
+  ],
+  "notHaveFourHigh": [
+    "四大代谢糖尿病",
+    "四大代谢高血压"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "description": "贫血确诊_红细胞_男性",
+  "features": [
+    "OTHER_DIAGNOSIS",
+    "INSPECTION",
+    "PERSONAL"
+  ],
+  "details": [
+    {
+      "index": 0,
+      "spaceNumber": 0,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "该患者近次化验显示红细胞总数偏低，可能存在贫血，是否提醒患者前往医院就诊？",
+            "toPatient": "您好，您近次化验红细胞总数偏低，有可能为贫血，请您尽快前往医院就诊，并将诊断结果反馈到系统。",
+            "type": "RE_EXAMINATION_ADVICE"
+          }
+        ]
+      },
+      "timeUnite": "DAY",
+      "effectiveDays": 0
+    }
+  ],
+  "notHaveOtherDiagnosis": [
+    {
+      "itemName": "贫血",
+      "otherDiagnosis": [
+        {
+          "name": "贫血"
+        }
+      ]
+    }
+  ],
+  "inspections": [
+    {
+      "sign": "PX_CONFIRM_RBC_MALE",
+      "abbreviation": "RBC",
+      "max": 4000,
+      "min": 0,
+      "reachedTimes": 1,
+      "reachedUnit": "NUMBER",
+      "cutOffNum": 1
+    }
+  ],
+  "personal": [
+    {
+      "sign": "PX_CONFIRM_RBC_MALE",
+      "requiredSex": "MALE"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "description": "胃黏膜保护剂调药",
+  "features": [
+    "MEDICINE"
+  ],
+  "details": [
+    {
+      "index": 0,
+      "spaceNumber": 1,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者胃粘膜保护剂已连续⽤药#spaceTime#个⽉，是否调药？",
+            "toPatient": "",
+            "type": "MEDICINE_ADJUSTMENT_ADVICE"
+          }
+        ]
+      },
+      "timeUnite": "MONTH",
+      "effectiveDays": 0
+    }
+  ],
+  "haveMedicine": [
+    {
+      "name": "胃粘膜保护剂",
+      "nameType": "MEDICINE_CATEGORY",
+      "duration": 1,
+      "durationUnit": "MONTH",
+      "operations": [
+        "ADD",
+        "UPDATE"
+      ]
+    }
+  ]
+}

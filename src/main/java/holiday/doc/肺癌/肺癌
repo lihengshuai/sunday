@@ -1,0 +1,216 @@
+{
+	"description": "肺癌",
+	"features": [
+		"DISEASE"
+	],
+	"details": [{
+			"index": 0,
+			"spaceNumber": 3,
+			"timeUnite": "MONTH",
+			"msg": {
+				"content": [{
+					"toDoctor": "患者到#date#肺癌患病满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+					"toPatient": "您好,到#date#,您肺癌患病已经满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+					"type": "RE_EXAMINATION_ADVICE"
+				}]
+			},
+			"timeStartFrom": "TREATMENT_TREATED_AT",
+			"reviewItems": [
+				"血常规",
+				"生化全项",
+				"胸部CT",
+				"腹部CT或B超"
+			]
+		},
+		{
+			"index": 1,
+			"spaceNumber": 6,
+			"timeUnite": "MONTH",
+			"timeStartFrom": "TREATMENT_TREATED_AT",
+			"msg": {
+				"content": [{
+					"toDoctor": "患者到#date#肺癌患病满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+					"toPatient": "您好,到#date#,您肺癌患病已经满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+					"type": "RE_EXAMINATION_ADVICE"
+				}]
+			},
+			"reviewItems": [
+				"血常规",
+				"生化全项",
+				"胸部CT",
+				"腹部CT或B超",
+				"头颅CT",
+				"骨扫描（ECT）",
+				"肿瘤标记物"
+			]
+		},
+		{
+			"index": 2,
+			"spaceNumber": 9,
+			"timeUnite": "MONTH",
+			"timeStartFrom": "TREATMENT_TREATED_AT",
+			"msg": {
+				"content": [{
+					"toDoctor": "患者到#date#肺癌患病满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+					"toPatient": "您好,到#date#,您肺癌患病已经满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+					"type": "RE_EXAMINATION_ADVICE"
+				}]
+			},
+			"reviewItems": [
+				"血常规",
+				"生化全项",
+				"胸部CT",
+				"腹部CT或B超"
+			]
+		},
+		{
+			"index": 3,
+			"spaceNumber": 12,
+			"timeUnite": "MONTH",
+			"timeStartFrom": "TREATMENT_TREATED_AT",
+			"msg": {
+				"content": [{
+					"toDoctor": "患者到#date#肺癌患病满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+					"toPatient": "您好,到#date#,您肺癌患病已经满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+					"type": "RE_EXAMINATION_ADVICE"
+				}]
+			},
+			"reviewItems": [
+				"血常规",
+				"生化全项",
+				"胸部CT",
+				"腹部CT或B超",
+				"头颅CT",
+				"骨扫描（ECT）",
+				"肿瘤标记物"
+			]
+		},
+		{
+			"index": 4,
+			"spaceNumber": 18,
+			"timeUnite": "MONTH",
+			"timeStartFrom": "TREATMENT_TREATED_AT",
+			"msg": {
+				"content": [{
+					"toDoctor": "患者到#date#肺癌患病满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+					"toPatient": "您好,到#date#,您肺癌患病已经满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+					"type": "RE_EXAMINATION_ADVICE"
+				}]
+			},
+			"reviewItems": [
+				"血常规",
+				"生化全项",
+				"胸部CT",
+				"腹部CT或B超",
+				"头颅CT",
+				"骨扫描（ECT）",
+				"肿瘤标记物"
+			]
+		},
+		{
+			"index": 5,
+			"spaceNumber": 24,
+			"timeUnite": "MONTH",
+			"timeStartFrom": "TREATMENT_TREATED_AT",
+			"msg": {
+				"content": [{
+					"toDoctor": "患者到#date#肺癌患病满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+					"toPatient": "您好,到#date#,您肺癌患病已经满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+					"type": "RE_EXAMINATION_ADVICE"
+				}]
+			},
+			"reviewItems": [
+				"血常规",
+				"生化全项",
+				"胸部CT",
+				"腹部CT或B超",
+				"头颅CT",
+				"骨扫描（ECT）",
+				"肿瘤标记物"
+			]
+		},
+		{
+			"index": 6,
+			"spaceNumber": 36,
+			"timeUnite": "MONTH",
+			"timeStartFrom": "TREATMENT_TREATED_AT",
+			"msg": {
+				"content": [{
+					"toDoctor": "患者到#date#肺癌患病满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+					"toPatient": "您好,到#date#,您肺癌患病已经满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+					"type": "RE_EXAMINATION_ADVICE"
+				}]
+			},
+			"reviewItems": [
+				"血常规",
+				"生化全项",
+				"胸部CT",
+				"腹部CT或B超",
+				"头颅CT",
+				"骨扫描（ECT）",
+				"肿瘤标记物"
+			]
+		},
+		{
+			"index": 7,
+			"spaceNumber": 48,
+			"timeUnite": "MONTH",
+			"timeStartFrom": "TREATMENT_TREATED_AT",
+			"msg": {
+				"content": [{
+					"toDoctor": "患者到#date#肺癌患病满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+					"toPatient": "您好,到#date#,您肺癌患病已经满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+					"type": "RE_EXAMINATION_ADVICE"
+				}]
+			},
+			"reviewItems": [
+				"血常规",
+				"生化全项",
+				"胸部CT",
+				"腹部CT或B超",
+				"头颅CT",
+				"骨扫描（ECT）",
+				"肿瘤标记物"
+			]
+		},
+		{
+			"index": 8,
+			"spaceNumber": 60,
+			"timeUnite": "MONTH",
+			"timeStartFrom": "TREATMENT_TREATED_AT",
+			"msg": {
+				"content": [{
+					"toDoctor": "患者到#date#肺癌患病满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+					"toPatient": "您好,到#date#,您肺癌患病已经满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+					"type": "RE_EXAMINATION_ADVICE"
+				}]
+			},
+			"reviewItems": [
+				"血常规",
+				"生化全项",
+				"胸部CT",
+				"腹部CT或B超",
+				"头颅CT",
+				"骨扫描（ECT）",
+				"肿瘤标记物"
+			]
+		}
+	],
+	"haveDisease": [{
+			"name": "肺癌根治术后",
+			"diseaseStatus": "TREATMENT_RELATION"
+		},
+		{
+			"name": "肺肿瘤",
+			"diseaseStatus": "TREATMENT_RELATION"
+		},
+		{
+			"name": "肺恶性肿瘤",
+			"diseaseStatus": "TREATMENT_RELATION"
+		},
+		{
+			"name": "肺癌",
+			"diseaseStatus": "TREATMENT_RELATION"
+		}
+	]
+}

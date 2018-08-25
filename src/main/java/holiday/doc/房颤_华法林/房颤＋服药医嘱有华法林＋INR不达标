@@ -1,0 +1,72 @@
+{
+  "description": "房颤_服药医嘱有华法林_INR不达标",
+  "features": [
+    "DISEASE",
+    "MEDICINE",
+    "INSPECTION"
+  ],
+  "details": [
+    {
+      "index": 0,
+      "spaceNumber": -3,
+      "timeUnite": "DAY",
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者目前口服华法林初期,已经连续口服华法林#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "toPatient": "您好,您目前为口服抗凝药华法林初期,需要每#spaceTime#复查,具体项目:#reviewItems#。",
+            "type": "RE_EXAMINATION_ADVICE"
+          }
+        ]
+      },
+      "reviewItems": [
+        "凝血四项"
+      ]
+    }
+  ],
+  "haveDisease": [
+    {
+      "name": "心房颤动",
+      "diseaseStatus": "IGNORE_TREATMENT"
+    },
+    {
+      "name": "心房纤颤和扑动",
+      "diseaseStatus": "IGNORE_TREATMENT"
+    },
+    {
+      "name": "阵发性心房纤颤",
+      "diseaseStatus": "IGNORE_TREATMENT"
+    }
+  ],
+  "haveMedicine": [
+    {
+      "name": "华法林",
+      "nameType": "MEDICINE_KEYWORDS",
+      "duration": 0,
+      "durationUnit": "DAY",
+      "operations": [
+        "EXIT"
+      ]
+    }
+  ],
+  "inspections": [
+    {
+      "sign": "FANGCHAN_HFL_INR_NOT_STEADY_MIN",
+      "abbreviation": "INR",
+      "max": 1999,
+      "min": 0,
+      "reachedTimes": 1,
+      "reachedUnit": "NUMBER",
+      "cutOffNum": 1
+    },
+    {
+      "sign": "FANGCHAN_HFL_INR_NOT_STEADY_MAX",
+      "abbreviation": "INR",
+      "max": 9999,
+      "min": 3100,
+      "reachedTimes": 1,
+      "reachedUnit": "NUMBER",
+      "cutOffNum": 1
+    }
+  ]
+}

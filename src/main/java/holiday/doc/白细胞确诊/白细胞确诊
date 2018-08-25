@@ -1,0 +1,34 @@
+{
+  "description": "白细胞确诊",
+  "features": [
+    "INSPECTION"
+  ],
+  "details": [
+    {
+      "index": 0,
+      "spaceNumber": 0,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "该患者近次化验显示白细胞计数过低，是否提醒患者前往医院就诊？",
+            "toPatient": "您好，您近次化验白细胞偏低，请您尽快前往医院就诊，并将诊断结果反馈到系统。",
+            "type": "RE_EXAMINATION_ADVICE"
+          }
+        ]
+      },
+      "timeUnite": "DAY",
+      "effectiveDays": 0
+    }
+  ],
+  "inspections": [
+    {
+      "sign": "BXB_CONFIRM",
+      "abbreviation": "WBC",
+      "max": 4000,
+      "min": 0,
+      "reachedTimes": 1,
+      "reachedUnit": "NUMBER",
+      "cutOffNum": 1
+    }
+  ]
+}

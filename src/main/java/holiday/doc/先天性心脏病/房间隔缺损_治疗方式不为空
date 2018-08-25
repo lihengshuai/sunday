@@ -1,0 +1,128 @@
+{
+  "description": "房间隔缺损_治疗方式不为空",
+  "features": [
+    "DISEASE"
+  ],
+  "details": [
+    {
+      "index": 0,
+      "spaceNumber": 1,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者行#treatmentName#已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "toPatient": "您好,到#date#,您行#treatmentName#已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "type": "RE_EXAMINATION_ADVICE"
+          }
+        ]
+      },
+      "timeUnite": "MONTH",
+      "timeStartFrom":"TREATMENT_TREATED_AT",
+      "reviewItems": [
+        "超声心动图",
+        "心电图",
+        "血常规",
+        "生化全项"
+      ]
+    },
+    {
+      "index": 1,
+      "spaceNumber": 3,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者行#treatmentName#已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "toPatient": "您好,到#date#,您行#treatmentName#已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "type": "RE_EXAMINATION_ADVICE"
+          }
+        ]
+      },
+      "timeUnite": "MONTH",
+      "timeStartFrom":"TREATMENT_TREATED_AT",
+      "reviewItems": [
+        "超声心动图",
+        "心电图",
+        "血常规",
+        "生化全项"
+      ]
+    },
+    {
+      "index": 2,
+      "spaceNumber": 6,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者行#treatmentName#已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "toPatient": "您好,到#date#,您行#treatmentName#已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "type": "RE_EXAMINATION_ADVICE"
+          }
+        ]
+      },
+      "timeUnite": "MONTH",
+      "timeStartFrom":"TREATMENT_TREATED_AT",
+      "reviewItems": [
+        "超声心动图",
+        "心电图",
+        "血常规",
+        "生化全项",
+        "胸部X线片"
+      ]
+    },
+    {
+      "index": 3,
+      "spaceNumber": 12,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者行#treatmentName#已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "toPatient": "您好,到#date#,您行#treatmentName#已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "type": "RE_EXAMINATION_ADVICE"
+          }
+        ]
+      },
+      "timeUnite": "MONTH",
+      "timeStartFrom":"TREATMENT_TREATED_AT",
+      "reviewItems": [
+        "超声心动图",
+        "心电图",
+        "血常规",
+        "生化全项",
+        "胸部X线片"
+      ]
+    }
+  ],
+  "haveDisease": [
+    {
+      "name": "房间隔缺损",
+      "diseaseStatus": "TREATMENT_NOT_EMPTY"
+    },
+    {
+      "name": "中央型房间隔缺损（卵圆孔型）",
+      "diseaseStatus": "TREATMENT_NOT_EMPTY"
+    },
+    {
+      "name": "下腔型房间隔缺损（低位缺损）",
+      "diseaseStatus": "TREATMENT_NOT_EMPTY"
+    },
+    {
+      "name": "上腔型房间隔缺损（高位缺损或静脉窦缺损）",
+      "diseaseStatus": "TREATMENT_NOT_EMPTY"
+    },
+    {
+      "name": "混合型房间隔缺损",
+      "diseaseStatus": "TREATMENT_NOT_EMPTY"
+    },
+    {
+      "name": "Ⅱ型房间隔缺损",
+      "diseaseStatus": "TREATMENT_NOT_EMPTY"
+    },
+    {
+      "name": "I型房间隔缺损",
+      "diseaseStatus": "TREATMENT_NOT_EMPTY"
+    },
+    {
+      "name": "房间隔缺损修补术后",
+      "diseaseStatus": "TREATMENT_NOT_EMPTY"
+    }
+  ]
+}

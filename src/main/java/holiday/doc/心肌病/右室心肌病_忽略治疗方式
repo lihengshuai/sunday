@@ -1,0 +1,35 @@
+{
+  "description": "右室心肌病_忽略治疗方式",
+  "features": [
+    "DISEASE"
+  ],
+  "details": [
+    {
+      "index": 0,
+      "spaceNumber": -6,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "toPatient": "您好,到#date#,您距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "type": "RE_EXAMINATION_ADVICE"
+          }
+        ]
+      },
+      "timeUnite": "MONTH",
+      "reviewItems": [
+        "心电图",
+        "24小时心电图",
+        "超声心动图",
+        "心脏磁共振",
+        "心脏CT"
+      ]
+    }
+  ],
+  "haveDisease": [
+    {
+      "name": "右室心肌病",
+      "diseaseStatus": "IGNORE_TREATMENT"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+	"description": "化疗",
+	"features": [
+		"CHEMOTHERAPY_TREATMENT_NOT_EMPTY"
+	],
+	"details": [{
+			"index": 0,
+			"spaceNumber": 3,
+			"timeUnite": "MONTH",
+			"msg": {
+				"content": [{
+					"toDoctor": "患者距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+					"toPatient": "您好,到#date#,您距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+					"type": "RE_EXAMINATION_ADVICE"
+				}]
+			},
+			"timeStartFrom": "TREATMENT_TREATED_AT",
+			"reviewItems": [
+				"血常规",
+				"生化全项",
+				"胸部CT",
+				"腹部CT或B超"
+			]
+		},
+		{
+			"index": 1,
+			"spaceNumber": 6,
+			"timeUnite": "MONTH",
+			"timeStartFrom": "TREATMENT_TREATED_AT",
+			"msg": {
+				"content": [{
+					"toDoctor": "患者距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+					"toPatient": "您好,到#date#,您距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+					"type": "RE_EXAMINATION_ADVICE"
+				}]
+			},
+			"reviewItems": [
+				"血常规",
+				"生化全项",
+				"胸腹部增强CT"
+			]
+		}, {
+			"index": 2,
+			"spaceNumber": 12,
+			"timeUnite": "MONTH",
+			"timeStartFrom": "TREATMENT_TREATED_AT",
+			"msg": {
+				"content": [{
+					"toDoctor": "患者距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+					"toPatient": "您好,到#date#,您距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+					"type": "RE_EXAMINATION_ADVICE"
+				}]
+			},
+			"reviewItems": [
+				"血常规",
+				"生化全项",
+				"胸腹部增强CT",
+				"头颅CT",
+				"骨扫描（ECT）",
+				"肿瘤标记物"
+			]
+		},
+		{
+			"index": 3,
+			"spaceNumber": 18,
+			"timeUnite": "MONTH",
+			"timeStartFrom": "TREATMENT_TREATED_AT",
+			"msg": {
+				"content": [{
+					"toDoctor": "患者距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+					"toPatient": "您好,到#date#,您距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+					"type": "RE_EXAMINATION_ADVICE"
+				}]
+			},
+			"reviewItems": [
+				"血常规",
+				"生化全项",
+				"胸腹部增强CT"
+			]
+		},
+		{
+			"index": 4,
+			"spaceNumber": 24,
+			"timeUnite": "MONTH",
+			"timeStartFrom": "TREATMENT_TREATED_AT",
+			"msg": {
+				"content": [{
+					"toDoctor": "患者距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+					"toPatient": "您好,到#date#,您距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+					"type": "RE_EXAMINATION_ADVICE"
+				}]
+			},
+			"reviewItems": [
+				"血常规",
+				"生化全项",
+				"胸腹部增强CT",
+				"头颅CT",
+				"骨扫描（ECT）",
+				"肿瘤标记物"
+			]
+		},
+		{
+			"index": 5,
+			"spaceNumber": 36,
+			"timeUnite": "MONTH",
+			"timeStartFrom": "TREATMENT_TREATED_AT",
+			"msg": {
+				"content": [{
+					"toDoctor": "患者距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+					"toPatient": "您好,到#date#,您距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+					"type": "RE_EXAMINATION_ADVICE"
+				}]
+			},
+			"reviewItems": [
+				"血常规",
+				"生化全项",
+				"胸腹部增强CT",
+				"头颅CT",
+				"骨扫描（ECT）",
+				"肿瘤标记物"
+			]
+		},
+		{
+			"index": 6,
+			"spaceNumber": 48,
+			"timeUnite": "MONTH",
+			"timeStartFrom": "TREATMENT_TREATED_AT",
+			"msg": {
+				"content": [{
+					"toDoctor": "患者距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+					"toPatient": "您好,到#date#,您距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+					"type": "RE_EXAMINATION_ADVICE"
+				}]
+			},
+			"reviewItems": [
+				"血常规",
+				"生化全项",
+				"胸腹部增强CT",
+				"头颅CT",
+				"骨扫描（ECT）",
+				"肿瘤标记物"
+			]
+		},
+		{
+			"index": 7,
+			"spaceNumber": 60,
+			"timeUnite": "MONTH",
+			"timeStartFrom": "TREATMENT_TREATED_AT",
+			"msg": {
+				"content": [{
+					"toDoctor": "患者距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+					"toPatient": "您好,到#date#,您距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+					"type": "RE_EXAMINATION_ADVICE"
+				}]
+			},
+			"reviewItems": [
+				"血常规",
+				"生化全项",
+				"胸腹部增强CT",
+				"头颅CT",
+				"骨扫描（ECT）",
+				"肿瘤标记物"
+			]
+		}
+	]
+}

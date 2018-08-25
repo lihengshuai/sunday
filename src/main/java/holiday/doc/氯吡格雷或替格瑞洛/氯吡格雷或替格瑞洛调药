@@ -1,0 +1,45 @@
+{
+  "description": "氯吡格雷或替格瑞洛调药",
+  "features": [
+    "MEDICINE"
+  ],
+  "details": [
+    {
+      "index": 0,
+      "spaceNumber": 9,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者波⽴维/替格瑞洛已连续使⽤#spaceTime#，是否调药？",
+            "toPatient": "",
+            "type": "MEDICINE_ADJUSTMENT_ADVICE"
+          }
+        ]
+      },
+      "timeUnite": "MONTH",
+      "effectiveDays": 0
+    }
+  ],
+  "haveMedicine": [
+    {
+      "name": "氯吡格雷",
+      "nameType": "MEDICINE_KEYWORDS",
+      "duration": 3,
+      "durationUnit": "DAY",
+      "operations": [
+        "ADD",
+        "UPDATE"
+      ]
+    },
+    {
+      "name": "替格瑞洛",
+      "nameType": "MEDICINE_KEYWORDS",
+      "duration": 3,
+      "durationUnit": "DAY",
+      "operations": [
+        "ADD",
+        "UPDATE"
+      ]
+    }
+  ]
+}

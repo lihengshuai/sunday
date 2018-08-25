@@ -1,0 +1,63 @@
+{
+  "description": "房颤_服药医嘱有华法林_INR达标_间隔15天",
+  "features": [
+    "DISEASE",
+    "MEDICINE",
+    "INSPECTION"
+  ],
+  "details": [
+    {
+      "index": 0,
+      "spaceNumber": -3,
+      "timeUnite": "MONTH",
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "toPatient": "您好,到#date#,您距离上次复查已满#spaceTime#,建议复查,具体项目:#reviewItems#。",
+            "type": "RE_EXAMINATION_ADVICE"
+          }
+        ]
+      },
+      "reviewItems": [
+        "凝血四项"
+      ]
+    }
+  ],
+  "haveDisease": [
+    {
+      "name": "心房颤动",
+      "diseaseStatus": "IGNORE_TREATMENT"
+    },
+    {
+      "name": "心房纤颤和扑动",
+      "diseaseStatus": "IGNORE_TREATMENT"
+    },
+    {
+      "name": "阵发性心房纤颤",
+      "diseaseStatus": "IGNORE_TREATMENT"
+    }
+  ],
+  "haveMedicine": [
+    {
+      "name": "华法林",
+      "nameType": "MEDICINE_KEYWORDS",
+      "duration": 0,
+      "durationUnit": "DAY",
+      "operations": [
+        "EXIT"
+      ]
+    }
+  ],
+  "inspections": [
+    {
+      "sign": "FANGCHAN_HFL_INR_STEADY_15_DAY",
+      "abbreviation": "INR",
+      "max": 3000,
+      "min": 2000,
+      "reachedTimes": 6,
+      "reachedUnit": "NUMBER",
+      "cutOffNum": 6
+    }
+  ]
+}

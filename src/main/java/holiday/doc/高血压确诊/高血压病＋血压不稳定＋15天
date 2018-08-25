@@ -1,0 +1,44 @@
+{
+  "description": "高血压病_血压不稳定_15天",
+  "features": [
+    "FOUR_HIGH",
+    "BLOOD_PRESS"
+  ],
+  "details": [
+    {
+      "index": 0,
+      "spaceNumber": 0,
+      "msg": {
+        "content": [
+          {
+            "toDoctor": "患者近期不同3天血压高于正常值，有可能为高血压病，是否提醒患者前往医院诊断？",
+            "toPatient": "您好，由于您近期血压异常，建议您尽快前往医院就诊，判断是否有高血压病，就诊后请及时向系统反馈诊断结果。",
+            "type": "RE_EXAMINATION_ADVICE"
+          }
+        ]
+      },
+      "timeUnite": "DAY",
+      "effectiveDays": 15
+    }
+  ],
+  "notHaveFourHigh": [
+    "四大代谢高血压"
+  ],
+  "ignoreFourHigh": [
+    "四大代谢高血脂",
+    "四大代谢糖尿病",
+    "四大代谢高尿酸"
+  ],
+  "bloodPress": [
+    {
+      "sign": "GXY_CONFIRM_BP_NOT_STEADY_FOR_15_DAY",
+      "highMax": 999,
+      "highMin": 140,
+      "lowMax": 999,
+      "lowMin": 90,
+      "reachedUnit": "DAY",
+      "reachedTimes": 3,
+      "cutOffNum": 15
+    }
+  ]
+}
